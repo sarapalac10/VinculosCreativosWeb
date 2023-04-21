@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel="icon" href="./assets/moon.svg" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+    <title>Sara Palacio - Portafolio</title>
+    <link rel="stylesheet" href="./style/normalize.css">
+    <link rel="stylesheet" href="./style/style.css">
+
+</head>
+<body>
+    <header class="header inicio">
+        <div class="contenedor contenido-header">
+            <div class="barra">
+                <a href="index.html">
+                    <h2 class="header-title">Agendemos una cita</h2>
+                </a>
+
+                <div class="derecha">
+                    <nav class="navegacion">
+                        <a href="/"><img src="/assets/Logo-psico-peq.png" class="logo" alt="logo-psico"></a>
+                        <a href="about.html">¿Quién soy?</a>
+                        <a href="/contactame.html">Agendar una cita</a>
+                        <!-- <a href="contacto.html">Contact</a> -->
+                    </nav>
+                </div> 
+            </div> <!--Cierre de div barra-->
+        </div>
+    </header>
+
+    <h2>formulario de contacto</h2>
+    <p>Si quieres contactarme llena los siguientes campos</p>
+
+        <form action="" class="formulario">
+            <fieldset>
+                <label for="nombre">Nombre completo:</label>
+                <input type="text" placeholder="Ingresa tu nombre" id="nombre">
+
+                <label for="email">Correo electrónico</label>
+                <input type="email" placeholder="Ingresa tu correo electrónico" id="email">
+
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" placeholder="Ingresa tu teléfono" id="telefono">
+
+                <label for="mensaje">Déjame tu mensaje:</label>
+                <textarea id="mensaje"></textarea>
+            </fieldset>
+        </form>
+
+    <footer class="footer seccion">
+
+
+        <p class="copyright">
+        Todos los derechos reservados 2023 &copy; 
+        </p>
+    </footer>
+
+    <script src="./script/app.js"></script>
+
+</body>
+</html>
