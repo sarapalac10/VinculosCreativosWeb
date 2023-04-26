@@ -1,32 +1,49 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Consultorio Médico</title>
-  </head>
-  <body>
-    <header>
-      <h1>Consultorio Médico</h1>
-    </header>
-    <main>
-      <h2>Bienvenido a nuestro consultorio</h2>
-      <p>En nuestro consultorio ofrecemos atención médica integral para toda la familia. Contamos con especialistas en diferentes áreas de la salud para brindarle el mejor cuidado posible.</p>
-      <h3>¿Qué servicios ofrecemos?</h3>
-      <ul>
-        <li>Consultas médicas generales</li>
-        <li>Consultas con especialistas</li>
-        <li>Exámenes de diagnóstico</li>
-        <li>Tratamientos médicos</li>
-        <li>Atención de urgencias</li>
-      </ul>
-      <h3>Horarios de atención</h3>
-      <p>Nuestro consultorio está abierto de lunes a viernes de 8:00 a.m. a 6:00 p.m. y sábados de 8:00 a.m. a 12:00 p.m.</p>
-      <h3>Contacto</h3>
-      <p>Para programar una cita o si tiene alguna pregunta, puede contactarnos por teléfono al (123) 456-7890 o por correo electrónico a info@consultoriomedico.com</p>
-    </main>
-    <footer>
-      <p>© 2023 - Consultorio Médico</p>
-    </footer>
-  </body>
+<head>
+	<meta charset="UTF-8">
+	<title>Consultorio de Psicología</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Consultorio de Psicología</h1>
+		<nav>
+			<ul>
+				<li><a href="#sobre-mi">Sobre mí</a></li>
+				<li><a href="#servicios">Servicios</a></li>
+				<li><a href="#contacto">Contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section id="sobre-mi">
+			<h2>Sobre mí</h2>
+			<p>Descripción breve del psicólogo y su formación.</p>
+		</section>
+		<section id="servicios">
+			<h2>Servicios</h2>
+			<ul>
+				<li>Sesiones individuales</li>
+				<li>Sesiones en pareja</li>
+				<li>Sesiones en grupo</li>
+			</ul>
+		</section>
+		<section id="contacto">
+			<h2>Contacto</h2>
+			<form>
+				<label for="nombre">Nombre:</label>
+				<input type="text" id="nombre" name="nombre" required>
+				<label for="correo">Correo electrónico:</label>
+				<input type="email" id="correo" name="correo" required>
+				<label for="mensaje">Mensaje:</label>
+				<textarea id="mensaje" name="mensaje" required></textarea>
+				<input type="submit" value="Enviar">
+			</form>
+		</section>
+	</main>
+	<footer>
+		<p>© 2023 Consultorio de Psicología</p>
+	</footer>
+</body>
 </html>
